@@ -1,3 +1,3 @@
 # Link to project page
 
-[Is Here](https://apple-wp-xmr.github.io/crypto-coin).
+[Is Here](https://apple-wp-xmr.github.io/project78/).
