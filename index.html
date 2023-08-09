@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>project78</title>
+  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+    integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <a href="#" class="logo">
+          <img src="./images/Logo.svg" alt="">
+        </a>
+        <nav class="header__menu">
+          <ul class="header__menu-items">
+            <li class="header__menu-item"><a href="#">Головна</a></li>
+            <li class="header__menu-item"><a href="#">Наші роботи</a></li>
+            <li class="header__menu-item header__menu-item--children">
+              <div>Послуги</div>
+              <ul class="header__menu-items header__menu-items--children-items ">
+                <li class="header__menu-item"><a href="#services">Дизайн</a></li>
+                <li class="header__menu-item"><a href="#services">Верстка</a></li>
+                <li class="header__menu-item"><a href="#services">Копірайт</a></li>
+              </ul>
+            </li>
+            <li class="header__menu-item"><a href="#">Про нас</a></li>
+            <li class="header__menu-item"><a href="#">Корисне</a></li>
+            <li class="header__menu-item"><a href="#">Контакти</a></li>
+          </ul>
+        </nav>
+        <div class="lang-dropdown">
+          <p>UA</p>
+          <div class="lang-dropdown__item">
+            <a href="./RU">RU</a>
+          </div>
+        </div>
+        <div class="header__menu-btn">
+          <span class="header__menu-btn-line"></span>
+        </div>
+      </div>
+
+  </header>
+  <section class="first">
+    <div class="container">
+      <div class="first__inner">
+        <div class="first__info">
+          <p class="first__title">Створимо <span>прибутковий</span> та <span>ефективний</span> сайт для</p>
+          <p class="first__title">Вашого бізнесу</p>
+        </div>
+
+        <a href="#contact" class="first__btn btn-communication">Замовити консультацію</a>
+      </div>
+      <div class="first__laptop">
+        <img src="images/first/Laptop.png" alt="laptop">
+        <img src="images/first/circle_text.svg" alt="circle">
+      </div>
+    </div>
+    </div>
+  </section>
+  <main class="main">
+    <div class="Vline"></div>
+    <section class="services" id="services">
+      <div class="dot"></div>
+      <div class="container">
+        <div class="services__inner">
+          <div class="services__subject-wrapper">
+            <p class="services__subject subject">Наші послуги</p>
+          </div>
+          <ol class="services__items">
+            <li class="services__item">Розробка сайтів <br> різного типу під ключ</li>
+            <li class="services__item">Веб дизайн</li>
+            <li class="services__item">SEO-просування</li>
+            <li class="services__item">Контекстна реклама</li>
+            <li class="services__item">SMM-просування</li>
+            <li class="services__item">Наповнення контентом</li>
+            <li class="services__item">Копірайт</li>
+            <li class="services__item">Технічна підтримка <br> сайту</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <div class="dot"></div>
+      <div class="container">
+        <div class="contact__inner">
+          <div class="contact__subject-wrapper">
+            <p class="contact__subject subject">Давайте обговоримо</p>
+            <p class="contact__subject subject"> Ваш проект</p>
+          </div>
+          <div class="contact__form-wrapper">
+            <p class="contact__about-from">Безкоштовна консультація</p>
+            <form class="form">
+              <div class="form__box">
+                <input type="text" id="fname" name="fname" placeholder="name">
+                <label for="fname">Ваше ім'я</label>
+              </div>
+              <div class="form__box">
+                <input type="text" id="fnumber" name="fnumber" placeholder="fnumber">
+                <label for="fnumber">Номер телефону</label>
+              </div>
+              <div class="form__box">
+                <input type="text" id="fmail" name="fmail" placeholder="mail">
+                <label for="fmail">Email</label>
+              </div>
+              <div class="form__box">
+                <textarea type="textarea" id="ftextarea" name="ftextarea" placeholder="textarea"></textarea>
+                <label for="ftextarea">Побажання</label>
+              </div>
+              <button class="form__btn btn-communication">Надіслати</button>
+
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="advantage">
+      <div class="dot"></div>
+      <div class="container">
+        <div class="advantage__inner">
+          <div class="advantage__subjec-wrapper">
+            <p class="advantage__subject subject">Наші переваги</p>
+          </div>
+          <div class="advantage__content">
+            <div class="advantage__rocket" id="rocket">
+              <img src="images/advantage/Rocket.png" alt="">
+            </div>
+            <ul class="advantage__list">
+              <li class="advantage__list-item">Працюємо з різними сферами бізнесу</li>
+              <li class="advantage__list-item">Гнучка цінова політика</li>
+              <li class="advantage__list-item">Індивідуальний підхід до кожного клієнта</li>
+              <li class="advantage__list-item">Знижки для постійних клієнтів</li>
+              <li class="advantage__list-item">Робота виключно за договором</li>
+              <li class="advantage__list-item">Чітко дотримуємось умов та термінів договору</li>
+              <li class="advantage__list-item">На зв’язку 24/7</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+  <section class="particles" id="particles-js"></section>
+  <section class="accordion">
+    <div class="container">
+      <div class="accordion__inner">
+        <button class="accordion__item">Основні напрямки діяльності</button>
+        <div class="panel">
+          <p>Головний вид діяльності компанії «IT 78» – надання послуг з розробки сайтів. </p>
+          <p> Професіоналізм співробітників,
+            регулярне ознайомлення з найновішими світовими тенденціями допомагають нам створювати конкурентоспроможні
+            високотехнологічні програмні продукти з ергономічним стильним дизайном, гарантувати високу якість роботи та
+            індивідуальний підхід до кожного замовника.</p>
+        </div>
+        <button class="accordion__item">Які види веб-сайтів розробляємо?</button>
+        <div class="panel">
+          <p>Компанія «IT 78» надає послуги з розробки різних видів сайтів під ключ:</p>
+          <ul>
+            <li>інтернет-магазинів</li>
+            <li>корпоративних</li>
+            <li>сайтів-візиток</li>
+            <li>маркетплейсів</li>
+            <li>В2В порталів</li>
+            <li>Landing page</li>
+          </ul>
+          <p>Ми створюємо інформаційні ресурси, максимально зручні для користувачів при роботі на ПК та різних мобільних
+            пристроях, актуальних на сьогоднішній день.</p>
+        </div>
+        <button class="accordion__item">На яких CMS розробляємо</button>
+        <div class="panel">
+          <p>Виконання робіт проводиться на погоджених із замовником CMS: сайти – на WordPress, Joomla, Opencart, Tilda,
+            Wix, Drupal, MODx. </p>
+        </div>
+        <button class="accordion__item">Етапи розробки сайту, терміни</button>
+        <div class="panel">
+          <p>Створення сайту поділяється на етапи:</p>
+          <ol>
+            <li>зустріч із замовником, детальне ознайомлення з особливостями бізнесу</li>
+            <li>обговорення, опрацювання особливостей та деталей проекту</li>
+            <li>остаточне вироблення, узгодження стратегії, укладання договору</li>
+            <li>визначення ресурсів, постановка спільних завдань</li>
+            <li>підготовка технічного завдання для кожного фахівця, фіксування дедлайну</li>
+            <li>програмування, web-дизайн, наповнення контентом</li>
+            <li>погодження фінального макета із замовником</li>
+            <li>коригування, тестування, запуск сайту.</li>
+          </ol>
+          <p>Детально опрацьований план дозволяє досягти максимально позитивних результатів, виконати роботу якісно без
+            порушення встановлених термінів.</p>
+        </div>
+        <button class="accordion__item">Какие дополнительные услуги оказываем</button>
+        <div class="panel">
+          <p>Наші замовники також можуть скористатися послугами:</p>
+          <ul>
+            <li>технічної підтримки сайту</li>
+            <li>наповнення контентом</li>
+            <li>копірайтингу</li>
+            <li>SEO та SMM-просування</li>
+            <li>контекстної реклами</li>
+          </ul>
+          <p>Укладання договору на надання додаткових послуг - гарантія безперебійної роботи сайту, ефективності,
+            якнайшвидшого просування бізнесу, залучення більшої кількості клієнтів.</p>
+        </div>
+        <button class="accordion__item">Чому варто замовити розробку у нас?</button>
+        <div class="panel">
+          <p>Компанія "IT 78" - надійний бізнес-партнер. Наші основні переваги:</p>
+          <ul>
+            <li> співробітництво з різними сферами бізнесу</li>
+            <li> робота виключно на договірних умовах</li>
+            <li> індивідуальний підхід до кожного замовника</li>
+            <li> точне дотримання термінів дедлайну</li>
+            <li> гнучка цінова політика</li>
+            <li> знижки для постійних клієнтів</li>
+            <li> на зв'язку завжди 24/7.</li>
+          </ul>
+          <p>«IT 78» будує взаємини із замовниками на основі поваги, дружелюбності, обов'язкового врахування думки іншої
+            сторони.</p>
+        </div>
+        <button class="accordion__item">Скільки коштує замовити сайт?</button>
+        <div class="panel">
+          <p>Ціна розробки сайту в Україні на замовлення обумовлюється в індивідуальному порядку. Вона залежить від
+            багатьох факторів:</p>
+          <ul>
+            <li> складності замовлення</li>
+            <li> терміновості виконання роботи</li>
+            <li> виду сайту (візитка, портал)</li>
+            <li> необхідності надання додаткових послуг.</li>
+          </ul>
+          <p>Політика гнучких цін та регулярні знижки дозволяють вигідно купити якісну послугу зі створення власного
+            сайту. До підписання договору та після здачі проекту надаються безкоштовні консультації.</p>
+        </div>
+        <button class="accordion__item">Як замовити сайт? </button>
+        <div class="panel">
+          <p>Для оформлення заявки на створення сайту слід зв'язатися з нами у будь-який спосіб, вказаний у розділі
+            «Контакти».</p>
+          <p> Вартість робіт визначається після отримання консультації, визначення цілей та завдань проекту.
+          </p>
+          <p>
+            Замовник заповнює бриф, де детально відповідає на поставлені запитання та викладає побажання. </p>
+          <p> На фінальному
+            етапі підписується договір на надання послуг, після чого фахівці розпочинають розробку сайту. </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class=" footer">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer___credentials">
+          <a href="#" class="logo">
+            <img src="./images/Logo.svg" alt="">
+          </a>
+          <p class="phone">Телефон: <br>
+            068-117-10-01</p>
+          <p class="email">E-mail:<br>
+            info@brainlab.com.ua</p>
+          <a href="#contact" class="footer__btn btn-communication">Замовити консультацію</a>
+          <ul class="social social--desctop">
+            <li class="social__item"><a href="#"><svg width="33" height="29" viewBox="0 0 33 29" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M0.571281 14.0804L8.64113 18.1197C8.79421 18.1961 8.96376 18.2332 9.13461 18.2276C9.30546 18.2221 9.47227 18.1741 9.62012 18.0879L16.8031 13.894L12.4554 17.7634C12.346 17.8607 12.2585 17.9802 12.1985 18.114C12.1385 18.2477 12.1075 18.3928 12.1075 18.5395V27.9644C12.1075 28.9587 13.3711 29.3771 13.9637 28.5872L17.4521 23.9293L26.0788 28.8634C26.2206 28.9444 26.3795 28.9904 26.5425 28.9977C26.7054 29.0051 26.8678 28.9735 27.0162 28.9055C27.1646 28.8376 27.2949 28.7353 27.3963 28.607C27.4977 28.4786 27.5674 28.328 27.5996 28.1674L32.9799 1.23911C33.0163 1.05688 33.0031 0.868184 32.9418 0.692813C32.8806 0.517443 32.7735 0.36186 32.6317 0.242381C32.49 0.122903 32.3188 0.0439316 32.1362 0.0137493C31.9536 -0.016433 31.7663 0.00328605 31.5939 0.0708384L0.656531 12.1886C0.470502 12.2614 0.309538 12.387 0.193182 12.5499C0.0768254 12.7129 0.0100819 12.9063 0.00105468 13.1067C-0.00797257 13.307 0.0411047 13.5056 0.142328 13.6785C0.243551 13.8514 0.392566 13.991 0.571281 14.0804ZM30.5874 2.6891L25.8588 26.3542L17.6845 21.6784C17.4663 21.5541 17.2105 21.5138 16.9649 21.5648C16.7193 21.6159 16.5005 21.7549 16.3493 21.9559L14.17 24.8656V19.0049L25.9276 8.54289C26.8584 7.71571 25.7887 6.24501 24.7258 6.87196L9.06463 16.0165L3.57565 13.2698L30.5874 2.6891Z"
+                    fill="#EEEEEE" />
+                </svg>
+              </a>
+            </li>
+            <li class="social__item">
+              <a href="#"><svg width="33" height="29" viewBox="0 0 35 26" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M33.9363 26H1.06374C0.472773 26 0 25.5251 0 24.9315V1.06849C0 0.474885 0.472773 0 1.06374 0H33.9363C34.5272 0 35 0.474885 35 1.06849V24.9389C35 25.5251 34.5198 26 33.9363 26ZM2.12748 23.863H32.8725V2.13699H2.12748V23.863Z"
+                    fill="#EEEEEE" />
+                  <path
+                    d="M17.5002 17.8903C17.2343 17.8903 16.9684 17.7938 16.7689 17.5935L0.340035 1.84807C-0.0884155 1.43997 -0.10319 0.764742 0.3031 0.334377C0.70939 -0.0959885 1.38161 -0.110829 1.81006 0.297276L17.5002 15.3452L33.1904 0.297276C33.6188 -0.110829 34.2911 -0.0959885 34.6974 0.334377C35.1036 0.764742 35.0889 1.43997 34.6604 1.84807L18.2316 17.6009C18.0321 17.7938 17.7662 17.8903 17.5002 17.8903Z"
+                    fill="#EEEEEE" />
+                  <path
+                    d="M1.07856 25.9996C0.79785 25.9996 0.51714 25.8883 0.310302 25.6657C-0.0959875 25.2353 -0.0812133 24.5601 0.347237 24.152L12.7871 12.2205C13.2155 11.8124 13.8878 11.8272 14.2941 12.2576C14.7003 12.688 14.6856 13.3632 14.2571 13.7713L1.80988 25.7102C1.61103 25.8957 1.34989 25.999 1.07856 25.9996ZM33.9215 25.9996C33.6556 25.9996 33.3897 25.9031 33.1902 25.7028L20.7504 13.7787C20.3219 13.3706 20.3071 12.6954 20.7134 12.265C21.1197 11.8346 21.7919 11.8198 22.2204 12.2279L34.6602 24.1594C35.0887 24.5675 35.1035 25.2428 34.6972 25.6731C34.4829 25.8957 34.2022 25.9996 33.9215 25.9996Z"
+                    fill="#EEEEEE" />
+                </svg>
+              </a>
+            </li>
+            <li class="social__item"><a href="#"><svg width="33" height="29" viewBox="0 0 33 29" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M25.7344 16.2096C26.5806 9.18431 25.3279 4.74905 23.0682 2.74299L23.0694 2.74182C19.4223 -0.683987 7.10535 -1.19104 2.74206 2.89569C0.782599 4.89476 0.0924145 7.82867 0.0167778 11.4608C-0.0588588 15.0941 -0.148677 21.9003 6.28162 23.7466H6.28753L6.28162 26.5663C6.28162 26.5663 6.23789 27.7086 6.97771 27.9383C7.82389 28.2087 8.20681 27.6783 10.8387 24.5777C15.2398 24.9542 18.6198 24.0917 19.0039 23.9658C19.8927 23.672 24.9213 23.0158 25.7344 16.2096ZM11.2725 22.5938C11.2725 22.5938 8.4869 26.0196 7.62062 26.909C7.33698 27.1981 7.02617 27.1713 7.03089 26.5978C7.03089 26.2213 7.05217 21.9166 7.05217 21.9166C1.60042 20.3756 1.92188 14.5801 1.98097 11.5482C2.04006 8.51523 2.6026 6.03126 4.26188 4.35857C8.08981 0.818521 18.8881 1.60999 21.6394 4.16041C25.0029 7.10131 23.8057 15.41 23.8128 15.6932C23.1214 21.3746 19.0465 21.7347 18.2972 21.9807C17.9769 22.0856 15.0046 22.8398 11.2725 22.5938Z"
+                    fill="#EEEEEE" />
+                  <path
+                    d="M12.8138 5.02393C12.3588 5.02393 12.3588 5.72331 12.8138 5.72914C16.3439 5.75595 19.2512 8.18281 19.2831 12.6344C19.2831 13.1041 19.9804 13.0983 19.9744 12.6286C19.9366 7.83195 16.7611 5.05074 12.8138 5.02393Z"
+                    fill="#EEEEEE" />
+                  <path
+                    d="M17.457 11.8968C17.4464 12.3607 18.1425 12.3829 18.1484 11.9131C18.2063 9.2683 16.5529 7.08973 13.4459 6.86009C12.9909 6.82746 12.9437 7.53267 13.3975 7.56531C16.092 7.76696 17.5114 9.5807 17.457 11.8968ZM16.7125 14.9053C16.1287 14.572 15.5342 14.7794 15.2884 15.107L14.7743 15.7632C14.5131 16.0966 14.025 16.0523 14.025 16.0523C10.463 15.1233 9.51046 11.4469 9.51046 11.4469C9.51046 11.4469 9.46673 10.9492 9.79292 10.6822L10.4358 10.1577C10.7573 9.90591 10.9606 9.29978 10.6332 8.70413C9.75864 7.14568 9.17128 6.60832 8.87228 6.19568C8.55791 5.80752 8.08518 5.7201 7.59355 5.98237H7.58291C6.56063 6.57218 5.44145 7.67604 5.79954 8.81254C6.41054 10.0108 7.53327 13.8306 11.1118 16.7167C12.7936 18.0817 15.455 19.4805 16.5848 19.8033L16.5955 19.8197C17.7088 20.1857 18.7913 19.0387 19.3692 18.0001V17.9919C19.6257 17.4896 19.5406 17.014 19.1659 16.7027C18.5018 16.064 17.4996 15.3588 16.7125 14.9053Z"
+                    fill="#EEEEEE" />
+                  <path
+                    d="M13.9329 9.46194C15.0687 9.52721 15.6194 10.1124 15.6785 11.3141C15.6998 11.7839 16.3911 11.7513 16.3698 11.2815C16.2942 9.71255 15.4646 8.83832 13.9707 8.75673C13.5157 8.72992 13.4732 9.43513 13.9329 9.46194Z"
+                    fill="#EEEEEE" />
+                </svg>
+              </a></li>
+          </ul>
+        </div>
+        <div class="footer__service">
+          <p class="footer__title">послуги</p>
+          <ul class="footer__service-list">
+            <li class="footer__service-item"><a href="#">Сайти під ключ</a></li>
+            <li class="footer__service-item"><a href="#">Веб-дизайн</a></li>
+            <li class="footer__service-item"><a href="#">SEO-просування</a></li>
+            <li class="footer__service-item"><a href="#">Контекстна реклама</a></li>
+            <li class="footer__service-item"><a href="#">SMM-просування</a></li>
+            <li class="footer__service-item"><a href="#">Наповнення контентом</a></li>
+            <li class="footer__service-item"><a href="#">Копірайт</a></li>
+            <li class="footer__service-item"><a href="#">Технічна підтримка сайту</a></li>
+          </ul>
+        </div>
+        <div class="footer-info">
+          <p class="footer__title">інформація</p>
+          <ul class="footer__info-list">
+            <li class="footer__info-item"><a href="#">Головна</a></li>
+            <li class="footer__info-item"><a href="#">Наші роботи</a></li>
+            <li class="footer__info-item"><a href="#">Контакти</a></li>
+            <li class="footer__info-item"><a href="#">Корисне</a></li>
+            <li class="footer__info-item"><a href="#">Про нас</a></li>
+            <li class="footer__info-item"><a href="#">Послуги</a></li>
+          </ul>
+        </div>
+        <ul class="social social--mobile">
+          <li class="social__item"><a href="#"><img src="images/social/tg.svg" alt="tg"></a></li>
+          <li class="social__item"><a href="#"><img src="images/social/email.svg" alt="tg"></a></li>
+          <li class="social__item"><a href="#"><img src="images/social/viber.svg" alt="tg"></a></li>
+        </ul>
+        <div class="footer__map">
+          <p class="footer__title">Адреса: <br> м.Полтава, вул. Кричевського, буд. 10-Н</p>
+          <div class="footer__map-content">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d662.5232247526429!2d34.56414105310182!3d49.5869092419848!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d8258ae627b67d%3A0x38a1d55176faaa7e!2z0YPQuy4g0JrRgNC40YfQtdCy0YHQutC-0LPQviwgMTAsINCf0L7Qu9GC0LDQstCwLCDQn9C-0LvRgtCw0LLRgdC60LDRjyDQvtCx0LvQsNGB0YLRjCwgMzYwMDA!5e0!3m2!1sru!2sua!4v1677071633924!5m2!1sru!2sua"
+              width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr class="line">
+    <div class="container">
+      <div class="footer__bottom">
+        <p class="footer__bottom-text">© Усі права захищені, IT 78. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+  <script defer src="js/libs.min.js"></script>
+  <script defer src="js/main.js"></script>
+</body>
+
+</html>
